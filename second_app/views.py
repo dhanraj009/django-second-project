@@ -3,6 +3,6 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("<em> My second Project </em>")
+    return HttpResponse("Child branch change")
 
 # Create your views here.
